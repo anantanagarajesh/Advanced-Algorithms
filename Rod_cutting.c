@@ -1,3 +1,5 @@
+#include<stdio.h>
+
 int rod_cutting(int len[],int price[]){
     int arr[9]={0};
     int max=arr[0]=0;
@@ -11,7 +13,6 @@ int rod_cutting(int len[],int price[]){
     }
     return max;
 }
-
 int main(){
     int length[8]={1,2,3,4,5,6,7,8};
     int price[8]={1,5,8,9,10,17,17,20};
